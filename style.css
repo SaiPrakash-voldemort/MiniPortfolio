@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  border-left: 60px solid black;
+  border-right: 60px solid black;
+  overflow: hidden;
+  width: 100vw;
+}
+.one {
+  min-height: 100vh;
+  background-image: url(imgs/one_img.jpg);
+  background-position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.intro {
+  width: 500px;
+  padding: 10px;
+  position: relative;
+  top: 36px;
+  left: 36px;
+}
+.intro h1 {
+  font-size: 41px;
+  color: white;
+  font-weight: bold;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-family: "Tektur", cursive;
+}
+.two {
+  text-align: center;
+  background-color: black;
+}
+.mid {
+  width: 100vw;
+  height: 235px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid h1 {
+  color: azure;
+  font-size: 80px;
+  margin: 10px;
+  padding: 10px;
+}
+.three {
+  margin: 40px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.card:hover {
+  box-shadow: 30px 30px 30px rgb(1, 1, 1, 0.5);
+}
+.card {
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgb(1, 1, 1, 0.5);
+}
+.card img {
+  height: 175px;
+  width: 350px;
+  border-radius: 10px;
+}
+.card_txt {
+  padding: 10px;
+  text-align: center;
+}
+.card_txt a {
+  text-decoration: none;
+  color: grey;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+.contact_me {
+  height: 300px;
+  background-color: #cc5050;
+  margin-top: 20px;
+  padding: 40px 70px;
+}
+.contact_me h1 {
+  font-size: 40px;
+  padding: 10px;
+}
+.about h1 {
+  font-size: 40px;
+  padding: 10px;
+}
+.about {
+  height: 300px;
+  background-color: #cc5;
+  margin-top: 20px;
+  padding: 40px 70px;
+}
+.end {
+  background-color: black;
+  text-align: center;
+}
+.end h1 {
+  color: white;
+}
+@media screen and (max-width: 1260px) {
+  .three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 1138px;
+    padding: 0px;
+  }
+}
